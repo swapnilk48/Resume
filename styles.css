@@ -84,7 +84,7 @@ img.self-img{
   margin: 100px auto 100px auto;
   text-align: left;
 } 
-.technical-skills, .projects, .language{
+.technical-skills, .projects, .language, .certificates, .skills, .hobbies, .mytown,.myintro{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
@@ -121,16 +121,17 @@ img.self-img{
 }
 
 .code-img {
-  width: 300px;
-  height: 370px;
+  width: 250px;
+  height: 300px;
   float: left;
   margin-right: 30px;
 }
 
 .skills-img{
-  width: 50%;
+  width: 35%;
   float: right;
   margin-left: 30px;
+  
 }
 
 li{
@@ -162,4 +163,11 @@ li{
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
